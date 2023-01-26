@@ -1,0 +1,16 @@
+.cardTrend{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 160vh;
+    margin: 100px;
+    .card{
+        margin: 30px;
+        .cardimgtop{
+            height: 300px;
+            width: 300px;
+        }
+    }
+}
